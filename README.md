@@ -29,16 +29,16 @@ driver = webdriver.Chrome(service=service)
 driver.get("https://www.spotify.com/tr/signup")
 
 eposta = driver.find_element(By.ID, "email")
-eposta.send_keys("schoolcavus@gmail.com")
+eposta.send_keys("attempt@gmail.com")
 eposta.send_keys(Keys.ENTER)
 
 
 eposta_onayla = driver.find_element(By.ID, "confirm")
-eposta_onayla.send_keys("schoolcavus@gmail.com")
+eposta_onayla.send_keys("attempt@gmail.com")
 eposta_onayla.send_keys(Keys.ENTER)
 
 sifre = driver.find_element(By.ID, "password")
-sifre.send_keys("Muhammedcavus0")
+sifre.send_keys("attempt")
 sifre.send_keys(Keys.ENTER)
 
 kulanıcı_adı = driver.find_element(By.ID, "displayname")
